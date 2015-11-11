@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 
     // **** Call your answer function here ****
     $array = $_POST['array'];
-    
+
     $solution = solution($array);
 
     // Display answer
