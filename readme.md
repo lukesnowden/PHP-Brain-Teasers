@@ -8,7 +8,7 @@ All Brain Teasers need to follow some simple rules.
 - 2. Outputs must be of type string, int or bool
 - 3. The solution should be achievable in a "Reasonable" amount of code, no more than 50 lines.
 
-## Answering the questions yourself
+## Answering the Questions Yourself
 Fork the Master Branch, delete the answer.php files and away you go.
 
 ## Contributing Brain Teasers
