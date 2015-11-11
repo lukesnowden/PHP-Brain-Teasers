@@ -9,7 +9,7 @@ All Brain Teasers need to follow some simple rules.
 - 3. The solution should be achievable in a "Reasonable" amount of code, no more than 50 lines.
 
 ## Answering the Questions Yourself
-Fork the Master Branch, delete the answer.php files and away you go.
+Fork the Master Branch, delete the solution.php files and away you go.
 
 ## Contributing Brain Teasers
 Fork the Master Branch and submit a pull request. The guidlines can be found in the template folder. Please only submit the brain teaser and not the question.
