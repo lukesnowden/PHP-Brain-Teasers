@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     require('solution.php');
 
     // **** Call your answer function here ****
-    $solution = answer($_POST['string']);
+    $solution = solution($_POST['string']);
 
     // Display answer
     echo (isset($solution) ? $solution : 'Challenge not yet complete');
