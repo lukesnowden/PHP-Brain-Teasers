@@ -1,5 +1,7 @@
 <?php
 function solution($array) {
-    return key( array_count_values( $array ) );
+	$array = array_count_values( $array );
+	asort( $array );
+    return end( array_flip( $array ) );
 }
-var_dump(solution([1, 3, 4, 5, 5, 5, 6, 7, 5, 4, 6, 4, 5]));
+var_dump(solution([1, 3, 4, 6, 7, 7, 7, 7, 7, 5, 4, 6, 4, 5]));
