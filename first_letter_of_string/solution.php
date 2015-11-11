@@ -1,13 +1,6 @@
 <?php
 function solution($string) {
-
-    // Get the first letter
-    $frst = substr($string, 0, 1);
-
-    // Set the first letter to upper
-    $frstUpper = strtoupper($frst);
-
-    // Compare and return
-    return ($frst === $frstUpper);
-
+	return ucfirst( $string )[0] === $string[0];
 }
+
+var_dump(solution('Dave'));
